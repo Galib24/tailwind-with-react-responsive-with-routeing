@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import PriceList from './components/price List/PriceList'
+import DashBoard from './components/Dash Borad/DashBoard'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       <h1 className='text-7xl mb-5 text-center text-purple-500'>hello pal</h1>
       <PriceList></PriceList>
+      <DashBoard></DashBoard>
 
 
     </div>

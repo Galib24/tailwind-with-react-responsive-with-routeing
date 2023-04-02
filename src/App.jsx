@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <h1 className='text-7xl text-purple-500'>hello pal</h1>
+      <h1 className='text-7xl mb-5 text-center text-purple-500'>hello pal</h1>
       <PriceList></PriceList>
 
 
